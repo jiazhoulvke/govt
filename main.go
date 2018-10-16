@@ -205,7 +205,7 @@ func main() {
 		}
 		if info.IsDir() {
 			filepath.Walk(p, func(path string, info os.FileInfo, err error) error {
-				if !IsVidoFile(path) {
+				if !IsVideoFile(path) {
 					return nil
 				}
 				if info.IsDir() {
@@ -227,8 +227,8 @@ func main() {
 	}
 }
 
-//IsVidoFile check file type
-func IsVidoFile(filename string) bool {
+//IsVideoFile check file type
+func IsVideoFile(filename string) bool {
 	ext := Ext(filename)
 	for _, allowExt := range allowExts {
 		if allowExt == ext {
