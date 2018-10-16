@@ -21,6 +21,12 @@ brew install ffmpeg
 go get -v github.com/jiazhoulvke/govt
 ```
 
+### Download From Releases ###
+
+- [Mac OS X](https://github.com/jiazhoulvke/govt/releases/download/v0.1.0/govt-darwin-amd64.zip)
+
+- [Linux](https://github.com/jiazhoulvke/govt/releases/download/v0.1.0/govt-linux-amd64.zip)
+
 ## Usage ##
 
 ```
