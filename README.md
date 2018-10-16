@@ -61,9 +61,9 @@ govt -start_at 60 -max_height 1280 -max_width 1280 ~/Movies/blender/big_buck_bun
 
 ## ScreenShot ##
 
-![screenshot1](https://github.com/jiazoulvke/govt/raw/master/screenshots/big_buck_bunny_720p_h264.jpg)
+![screenshot1](https://raw.githubusercontent.com/jiazhoulvke/govt/master/screenshots/big_buck_bunny_720p_h264.jpg)
 
-![screenshot2](https://github.com/jiazoulvke/govt/raw/master/screenshots/Sintel.2010.720p.jpg)
+![screenshot2](https://raw.githubusercontent.com/jiazhoulvke/govt/master/screenshots/Sintel.2010.720p.jpg)
 
 ## License ##
 
