@@ -59,7 +59,7 @@ govt ~/Movies/blender/big_buck_bunny_720p_h264.mov ~/Movies/blender/Sintel.2010.
 govt -start_at 60 -max_height 1280 -max_width 1280 ~/Movies/blender/big_buck_bunny_720p_h264.mov
 ```
 
-## ScreenShot ##
+## ScreenShots ##
 
 ![screenshot1](https://raw.githubusercontent.com/jiazhoulvke/govt/master/screenshots/big_buck_bunny_720p_h264.jpg)
 
