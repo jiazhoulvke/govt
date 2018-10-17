@@ -7,10 +7,16 @@ Generate sudoku-like thumbnails from videos.
 - [FFmpeg](https://www.ffmpeg.org/)
 - [FFProbe](https://www.ffmpeg.org/ffprobe.html)
 
-### Mac OS X ##
+### Mac OS X ###
 
 ```bash
 brew install ffmpeg
+```
+
+### Ubuntu ###
+
+```bash
+sudo apt install ffmpeg
 ```
 
 ## Installation ##
