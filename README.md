@@ -33,6 +33,8 @@ go get -v github.com/jiazhoulvke/govt
 
 - [Linux](https://github.com/jiazhoulvke/govt/releases/download/v0.1.0/govt-linux-amd64.zip)
 
+- [Windows](https://github.com/jiazhoulvke/govt/releases/download/v0.1.0/govt-windows-amd64.zip)
+
 ## Usage ##
 
 ```
