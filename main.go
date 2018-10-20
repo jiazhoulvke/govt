@@ -111,7 +111,7 @@ func CreateVideoThumbnail(filename string, saveDir string, saveName string, star
 			return err
 		}
 	} else { //
-		imgs := make([]image.Image, 0, 9)
+		imgs := make([]image.Image, 9, 9)
 		step := (duration - startAt) / 9
 		pos := startAt
 
@@ -121,7 +121,7 @@ func CreateVideoThumbnail(filename string, saveDir string, saveName string, star
 			wg.Add(9)
 			for i := 0; i < 9; i++ {
 				pos += step
-				go func(wg *sync.WaitGroup, pos int) {
+				go func(wg *sync.WaitGroup, pos int, i int) {
 					content, err := Screenshot(filename, pos)
 					if err != nil {
 						chErr <- err
@@ -134,9 +134,9 @@ func CreateVideoThumbnail(filename string, saveDir string, saveName string, star
 						wg.Done()
 						return
 					}
-					imgs = append(imgs, img)
+					imgs[i] = img
 					wg.Done()
-				}(&wg, pos)
+				}(&wg, pos, i)
 			}
 			wg.Wait()
 			chErr <- nil
