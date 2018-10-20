@@ -7,10 +7,16 @@ Generate sudoku-like thumbnails from videos.
 - [FFmpeg](https://www.ffmpeg.org/)
 - [FFProbe](https://www.ffmpeg.org/ffprobe.html)
 
-### Mac OS X ##
+### Mac OS X ###
 
 ```bash
 brew install ffmpeg
+```
+
+### Ubuntu ###
+
+```bash
+sudo apt install ffmpeg
 ```
 
 ## Installation ##
@@ -26,6 +32,8 @@ go get -v github.com/jiazhoulvke/govt
 - [Mac OS X](https://github.com/jiazhoulvke/govt/releases/download/v0.1.0/govt-darwin-amd64.zip)
 
 - [Linux](https://github.com/jiazhoulvke/govt/releases/download/v0.1.0/govt-linux-amd64.zip)
+
+- [Windows](https://github.com/jiazhoulvke/govt/releases/download/v0.1.0/govt-windows-amd64.zip)
 
 ## Usage ##
 
